@@ -964,23 +964,26 @@ body {
 
 /* width */
 ::-webkit-scrollbar {
-    width: 5px;
+    opacity: 0;
+    pointer-events: none;
 }
   
 /* Track */
 ::-webkit-scrollbar-track {
-    background: none;
+    opacity: 0;
+    pointer-events: none;
 }
   
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #1E1F22;
-    border-radius: 10px;
+    opacity: 0;
+    pointer-events: none;
 }
   
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #1E1F22;
+    opacity: 0;
+    pointer-events: none;
 }
 
 .hidden {
