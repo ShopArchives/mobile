@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <base target="_blank">
+    <title>Shop | Shop Archives</title>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <meta content="Shop Archives" property="og:title" />
+    <meta content="Your one stop place for all Discord Collectibles" property="og:description" />
+    <meta content="https://m.yapper.shop/shop/" property="og:url" />
+    <meta content="https://raw.githubusercontent.com/Yappering/developer/main/assets/5.png" property="og:image" />
+    <meta content="#FF007A" data-react-helmet="true" name="theme-color" />
+    <link rel="stylesheet" href="/styles.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="housing">
+        <div class="top-bar">
+            <h1 style="margin-left: 210px; margin-top: 20px; scale: 1.5;">Discord Shop</h1>
+        </div>
+        <div class="shop-housing" style="overflow: auto; margin-top: 0px;">
+            <div class="shop-container" style="overflow: auto; overflow-x: hidden;">
+                <div class="shop-category" style="margin-top: 50px;">
+                    <div class="shop-notice">
+                        <p class="shop-notice-text">Notice: All 'collectibles' on this page have been made by Discord NOT by our team</p>
+                    </div>
+                    <template data-shop-category-template>
+                        <div>
+                            <div class="shop-category-banner">
+                                <img class="shop-category-banner-img" src="" data-shop-category-banner-image>
+                                <div class="shop-category-logo-holder">
+                                    <img class="shop-category-banner-logo" src="" id="shop-banner-logo" data-shop-category-logo-image>
+                                </div>
+                                <!-- Timer Display -->
+                                <div class="shop-expiry-timer" style="display: none;">
+                                    <p class="shop-expiry-timer-timer" id="shop-expiry-timer"></p>
+                                </div>
+                            </div>
+                            <div class="shop-category-card-holder">
+                            </div>
+                        </div>
+                    </template>
+                    <div data-shop-output>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="/assets/1.js"></script>
+</body>
+
+</html>
