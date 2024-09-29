@@ -5,7 +5,7 @@ if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigat
 }
 
 
-let apiUrl = 'https://raw.githubusercontent.com/Yappering/api/main/v1/collectibles-nb';
+let apiUrl = 'https://raw.githubusercontent.com/Yappering/api/main/v1/collectibles';
 
 
 fetch(apiUrl)
