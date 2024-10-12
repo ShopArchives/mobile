@@ -18,7 +18,7 @@ fetch(apiUrl)
             const category = template.content.cloneNode(true).children[0];
 
             const bannerImage = category.querySelector("[data-shop-category-banner-image]");
-            bannerImage.src = user.banner;
+            bannerImage.src = user.mobile_banner;
             bannerImage.alt = user.name;
 
             const logoImage = category.querySelector("[data-shop-category-logo-image]");
